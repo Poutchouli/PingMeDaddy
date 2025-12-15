@@ -8,10 +8,16 @@ Async network telemetry platform that keeps a rolling eye on hundreds of IP targ
 - Drill into uptime, percentile latency, packet-loss, and hop counts via `/targets/{id}/insights` or export every raw ping as CSV.
 - Launch on-demand traceroute diagnostics directly from the API or dashboard.
 - Drive everything via REST (see [API_GUIDE.md](https://github.com/Poutchouli/PingMeDaddy/blob/690b736d62d888c7099923cd8d9d3521c410e8fb/API_GUIDE.md)), the authenticated CLI (`python -m app.cli`), or the React + Vite frontend located in [frontend/](https://github.com/Poutchouli/PingMeDaddy/tree/690b736d62d888c7099923cd8d9d3521c410e8fb/frontend).
+
+##Login (change them in the .env)
 <img width="694" height="645" alt="image" src="https://github.com/user-attachments/assets/1bd1b6fa-5cf9-4fd9-9a09-294bb0d46784" />
+##Dashboard
 <img width="1279" height="552" alt="image" src="https://github.com/user-attachments/assets/6c1e1243-c536-487c-8fc5-d4543f46e3c4" />
+##Details
 <img width="1271" height="1128" alt="image" src="https://github.com/user-attachments/assets/b05cb016-7d73-4f68-8599-8ef171585664" />
+##Event graph
 <img width="849" height="379" alt="image" src="https://github.com/user-attachments/assets/b1fc8467-8731-439f-8e67-c77391f15723" />
+##On-demand traceroute
 <img width="429" height="633" alt="image" src="https://github.com/user-attachments/assets/a73de5b4-0c22-4541-b2ad-3c5b8fd1e094" />
 
 ## System Architecture
